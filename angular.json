@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -26,10 +29,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "scripts": [
+              "node_modules/cookieconsent/build/cookieconsent.min.js"
             ],
-            "scripts": []
+      
+            "styles": [
+              "node_modules/cookieconsent/build/cookieconsent.min.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,10 +99,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "scripts": [
+              "node_modules/cookieconsent/build/cookieconsent.min.js"
             ],
-            "scripts": []
+      
+            "styles": [
+              "node_modules/cookieconsent/build/cookieconsent.min.css"
+            ]
           }
         }
       }
